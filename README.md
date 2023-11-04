@@ -2,6 +2,12 @@
 
 This is a Streamlit web app which utilizes memory_profiler Python module to help developers visualize memory usage and locate memory leaks.
 
+# Contents
+
+<a href=https://github.com/ShreeluSantosh/GUIMemoryProfile/edit/main/README.md#how-it-works>How it works</a><br>
+<a href=https://github.com/ShreeluSantosh/GUIMemoryProfile/edit/main/README.md#modules-and-libraries-used>Modules and Libraries used</a><br>
+<a href=https://github.com/ShreeluSantosh/GUIMemoryProfile/edit/main/README.md#how-to-run>How to Run</a>
+
 # How it works
 
 The developer can upload a Python file to the web app. The file is analyzed and executed in a sandbox environment to get more insights into full-time memory usage. 
@@ -26,7 +32,15 @@ I plan to add more new features in near future!
 
 # How to Run
 
-- install the required modules from requirements.txt
-```pip install -r requirements.txt```
-- run the root file (Introduction.py)
-```streamlit run Introduction.py```
+- Clone the repository
+~~~
+https://github.com/ShreeluSantosh/GUIMemoryProfile.git
+~~~
+- Install the required modules from requirements.txt
+~~~
+pip install -r requirements.txt
+~~~
+- Run the root file (Introduction.py)
+~~~  
+streamlit run Introduction.py
+~~~
