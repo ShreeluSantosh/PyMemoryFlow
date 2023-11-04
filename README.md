@@ -27,4 +27,6 @@ I plan to add more new features in near future!
 # How to Run
 
 - install the required modules from requirements.txt
+```pip install -r requirements.txt```
 - run the root file (Introduction.py)
+```streamlit run Introduction.py```
