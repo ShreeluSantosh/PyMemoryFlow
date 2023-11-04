@@ -4,7 +4,7 @@ This is a Streamlit web app which utilizes memory_profiler Python module to help
 
 # How it works
 
-The developer can upload a Python file to the web app. The file is analyzed and executed in a sandbox environment to get more insights into full-time mmeory usage. 
+The developer can upload a Python file to the web app. The file is analyzed and executed in a sandbox environment to get more insights into full-time memory usage. 
 
 Currently, there are two tools available:
 
