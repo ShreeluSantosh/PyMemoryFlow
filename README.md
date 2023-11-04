@@ -8,8 +8,11 @@ The developer can upload a Python file to the web app. The file is analyzed and 
 
 Currently, there are two tools available:
 
-- Line-by-line memory usage
+- Line-by-line Memory Usage
+![Screenshot 2023-11-04 125043](https://github.com/ShreeluSantosh/GUIMemoryProfile/assets/94289402/32189f88-1d92-43ee-9150-ba54ecf282c2)
+
 - Plotting memory usage over time
+![Screenshot 2023-11-04 125125](https://github.com/ShreeluSantosh/GUIMemoryProfile/assets/94289402/963f5265-06d9-4e37-8731-b46fddf0e613)
 
 I plan to add more new features in near future!
 
