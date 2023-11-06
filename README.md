@@ -34,7 +34,7 @@ I plan to add more new features in near future!
 
 - Clone the repository
 ~~~
-https://github.com/ShreeluSantosh/GUIMemoryProfile.git
+git clone https://github.com/ShreeluSantosh/GUIMemoryProfile.git
 ~~~
 - Install the required modules from requirements.txt
 ~~~
