@@ -34,8 +34,16 @@ def embedded_app():
                         plt.ylabel('Memory usage (MiB)')
                         plt.grid(True)
                         st.pyplot(plt)
-                        
-                        st.write("Return value from the profiled function:", retval)
+                        fn = "profile_plot.png"
+                        plt.savefig(fn)
+
+                        with open(fn, "rb") as img:
+                            st.download_button(
+                                label="Download plot",
+                                data=img,
+                                file_name=fn,
+                                mime="image/png"
+                            )                        
                 else:
                     st.error("No 'main' function found in the uploaded script.")
 
