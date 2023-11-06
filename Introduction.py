@@ -11,7 +11,7 @@ with tab1:
    st.write("Upload and get a detailed report on your Python app's memory usage!")
    expander = st.expander("Why Memory Profiling?")
    expander.write("Memory leaks are considered one of the menaces app developers face while developing their Python-based applications, especially given the language's high memory consumption.")
-   expander.write("A memory leak is an unintentional form of memory consumption whereby the developer fails to free an allocated block of memory when no longer needed. The consequences of such an issue depend on the application itself.")
+   expander.write("According to OWASP, a memory leak is an unintentional form of memory consumption whereby the developer fails to free an allocated block of memory when no longer needed. The consequences of such an issue depend on the application itself.")
 
 with tab2:
    st.header("Available Tools:")
