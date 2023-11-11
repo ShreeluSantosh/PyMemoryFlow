@@ -2,7 +2,6 @@ from streamlit_extras.sandbox import sandbox
 import streamlit as st
 
 st.set_page_config(page_title="Plot Memory Usage Profile", page_icon = "📜")
-st.sidebar.success("Select a tool or a page to jump to.")
 st.title("Plot Memory Usage Profile")
 
 def embedded_app():
@@ -18,7 +17,7 @@ def embedded_app():
 
     if uploaded_file:
         st.write("File Uploaded!")
-        if st.button("Profile"):
+        if st.button("Get Plot"):
             with st.spinner("Analyzing..."):
                 file_content = uploaded_file.read().decode('utf-8')
                 local_ns = {}
