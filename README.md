@@ -37,7 +37,7 @@ I plan to add more new features in near future!
 
 - Clone the repository
 ~~~
-git clone https://github.com/ShreeluSantosh/GUIMemoryProfile.git
+git clone https://github.com/ShreeluSantosh/PyMemoryFlow.git
 ~~~
 - Install the required modules from requirements.txt
 ~~~
