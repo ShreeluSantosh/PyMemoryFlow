@@ -1,4 +1,4 @@
-# GUIMemoryProfile
+# PyMemoryFlow
 
 This is a Streamlit web app which utilizes memory_profiler Python module to help developers visualize memory usage and locate memory leaks.
 
