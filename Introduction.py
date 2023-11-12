@@ -3,7 +3,7 @@ from streamlit_extras.switch_page_button import switch_page
 from streamlit_extras.let_it_rain import rain
 
 
-st.title("Memory Profiling 📜")
+st.title("PyMemoryFlow 📜")
 tab1, tab2, tab3 = st.tabs(["Welcome", "Tools", "References"])
 
 with tab1:
