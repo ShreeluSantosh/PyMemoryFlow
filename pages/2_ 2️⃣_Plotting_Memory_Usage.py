@@ -1,7 +1,7 @@
 from streamlit_extras.sandbox import sandbox
 import streamlit as st
 
-st.set_page_config(page_title="Plot Memory Usage Profile", page_icon = "📜")
+st.set_page_config(page_title="Plot Memory Usage Profile | PyMemoryFlow", page_icon = "📜")
 st.title("Plot Memory Usage Profile")
 
 def embedded_app():
