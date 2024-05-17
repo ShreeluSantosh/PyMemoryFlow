@@ -13,6 +13,10 @@ with tab1:
    expander.write("Memory leaks are considered one of the menaces app developers face while developing their Python-based applications, especially given the language's high memory consumption.")
    expander.write("According to OWASP, a memory leak is an unintentional form of memory consumption whereby the developer fails to free an allocated block of memory when no longer needed. The consequences of such an issue depend on the application itself.")
 
+   expander = st.expander("Why PyMemoryFlow?")
+   expander.write("This interactive web app, allows the programmers wishing to evaluate their Python code's memory usage, to have it analyzed.")
+   expander.write("The web app generates a line-by-line analysis of the program, and also includes a 'Download Report' feature.")
+
 with tab2:
    st.header("Available Tools:")
    col1, col2 = st.columns(2)
