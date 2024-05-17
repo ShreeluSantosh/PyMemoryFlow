@@ -4,7 +4,7 @@ from streamlit_extras.let_it_rain import rain
 
 st.set_page_config(page_title="Home | PyMemoryFlow", page_icon = "📜")
 st.title("PyMemoryFlow 📜")
-tab1, tab2, tab3 = st.tabs(["Welcome", "Tools", "References"])
+tab1, tab2, tab3 = st.tabs(["Welcome", "Tools", "About"])
 
 with tab1:
    st.header("Welcome")
@@ -29,5 +29,9 @@ with tab2:
 
    st.subheader("More features will be added in near future!")
 with tab3:
-   from pages.References import References
-   References.example()
+  st.header("About the tool:")
+  st.write("This web app uses the following techn stack:")
+  st.write("1. Python")
+  st.write("2. Streamlit")
+  st.write("3. matplotlib")
+  st.write("4. memory_profiler - a Python library")
