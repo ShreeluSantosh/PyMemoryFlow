@@ -1,0 +1,6 @@
+streamlit
+streamlit_extras
+memory_profiler
+matplotlib
+os
+subprocess
