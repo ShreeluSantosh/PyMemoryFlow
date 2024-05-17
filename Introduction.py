@@ -29,5 +29,5 @@ with tab2:
 
    st.subheader("More features will be added in near future!")
 with tab3:
-   from pages.3_References import References
+   from .pages._3_References import References
    References.example()
